@@ -1,5 +1,5 @@
 import qrcode
-url = input("enter yor url")
+url = input("enter  url : ")
 features = qrcode.QRCode(version=1,box_size=40,border=3)
 
 features.add_data(url)
